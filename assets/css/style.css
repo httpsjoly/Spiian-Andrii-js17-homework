@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 16px;
+}
+
+.users {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 10px 0;
+  border: 1px solid rgb(110, 119, 122);
+  border-radius: 5px;
+  background-color: rgb(229, 230, 199);
+}
+
+.user-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.user-info_data {
+  display: flex;
+  align-items: center;
+}
+
+.user-info_role {
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  background-color: rgb(197, 204, 238);
+  border-radius: 5px;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.user-courses{
+  display: flex;
+  margin: 5px;
+}
+
+
+.user-courses .student {
+  background: rgb(235,233,255);
+  border-radius: 5px;
+  padding: 8px 16px;
+}
+
+.user-courses .admin {
+  background: rgb(233,243,254);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.user-courses .lector {
+  background: rgb(254,234,232);
+  border-radius: 8px;
+  padding: 8px 16px;
+}
+
+.user-courses_course span {
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+.user-courses_course .satisfactory {
+  background: rgb(238,216,235);
+  color: rgb(245,82,72);
+}
+
+.user-courses_course .excellent {
+  background: rgb(221,228,237);
+  color: rgb(79,176,83);
+}
+
+.user-courses_course .good {
+  background: rgb(222,216,246);
+  color: rgb(139,106,202);
+}
+
+.user-courses_course .very-good {
+  background: rgb(217,237,250);
+  color: rgb(0,188,212);
+}
